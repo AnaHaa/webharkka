@@ -1,0 +1,21 @@
+.header {
+    height: '20vh';
+    display: grid;
+    color: white;
+    padding: 10px;
+    background-color: #181818;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 10px;
+}
+
+.button {
+    color: white;
+    background-color: inherit;
+    border: none;
+    transition-duration: 0.2s;
+    font-size: x-large;
+}
+
+.button:hover {
+    color: grey;
+  }
