@@ -1,0 +1,22 @@
+.card {
+    margin-top: 1% !important;
+    margin-left: 1% !important;
+    width: 150px;
+}
+
+.conf {
+    border-right: 5px solid darkgrey;
+}
+
+.reco {
+    border-right: 5px solid orange;
+}
+
+.curr {
+    border-right: 5px solid red;
+}
+
+.deat {
+    border-right: 5px solid black;
+}
+

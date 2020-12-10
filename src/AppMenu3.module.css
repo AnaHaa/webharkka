@@ -1,0 +1,44 @@
+body {
+    background-color: #121212;
+}
+
+.container {
+    color: white;
+    border-radius: 10px;
+    background-color: #181818;
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 20px;
+    padding: 20px;
+    height: 600px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: lightskyblue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }

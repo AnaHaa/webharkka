@@ -1,0 +1,28 @@
+body {
+    background-color: #121212;
+}
+
+.container {
+    width: 50%;
+    background-color: #181818;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.chart {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.text {
+    color: white;
+    margin-top: 30px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border-top: 2px solid white;
+}
